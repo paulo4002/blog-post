@@ -1,0 +1,25 @@
+*{
+    
+    font-size: 24px;
+margin: 0vh;
+ 
+    
+}
+html, body{
+    
+    animation-name: test;
+    animation-duration: 2s;
+    
+   
+}
+@keyframes test{
+    from{
+        margin-left: 100%;
+        width: 10%;
+    }
+    to{
+        margin-right: 10%;
+        width: 50%;
+        height: 50%;
+    }
+}
